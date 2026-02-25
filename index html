@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shine Confession Assistant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>✝ Shine Confession Preparation</h1>
+
+<select id="category">
+  <option value="youth">Youth Examination</option>
+  <option value="adult">Adult Examination</option>
+</select>
+
+<div id="questions"></div>
+
+<button onclick="generateSummary()">Generate Summary</button>
+
+<h2>My Confession Notes:</h2>
+<textarea id="summary" placeholder="Your selected reflections will appear here..."></textarea>
+
+<script src="script.js"></script>
+</body>
+</html>
